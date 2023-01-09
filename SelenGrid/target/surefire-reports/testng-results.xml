@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="32923" started-at="2023-01-06T00:15:39Z" finished-at="2023-01-06T00:16:12Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="32923" started-at="2023-01-06T00:15:39Z" finished-at="2023-01-06T00:16:12Z">
+      <class name="test.TestNgGridDemo">
+        <test-method status="PASS" signature="beforeScenario()[pri:0, instance:test.TestNgGridDemo@a12c19]" name="beforeScenario" is-config="true" duration-ms="3686" started-at="2023-01-06T00:15:39Z" finished-at="2023-01-06T00:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method status="PASS" signature="gridTestNgArabam()[pri:0, instance:test.TestNgGridDemo@a12c19]" name="gridTestNgArabam" duration-ms="14965" started-at="2023-01-06T00:15:43Z" finished-at="2023-01-06T00:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gridTestNgArabam -->
+        <test-method status="PASS" signature="gridTestNgDemo()[pri:0, instance:test.TestNgGridDemo@a12c19]" name="gridTestNgDemo" duration-ms="14255" started-at="2023-01-06T00:15:58Z" finished-at="2023-01-06T00:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gridTestNgDemo -->
+      </class> <!-- test.TestNgGridDemo -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
