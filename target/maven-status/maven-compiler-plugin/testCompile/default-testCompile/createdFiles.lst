@@ -1,4 +1,5 @@
 test\SeleniumGridDemo.class
 test\Demo.class
 test\TestRunner.class
+test\JenkinsTest.class
 test\TestNgGridDemo.class
