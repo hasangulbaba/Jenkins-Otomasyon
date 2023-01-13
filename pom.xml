@@ -9,9 +9,11 @@
     <artifactId>SelenGrid</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <test>src/test/resources/test_suite.xml</test>
     </properties>
 
 
@@ -46,15 +48,7 @@
                     <version>2.22.0</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>
-                                <suite>
-                                    <test>
-                                        <classes>
-                                            <class>${test}</class>
-                                        </classes>
-                                    </test>
-                                </suite>
-                            </suiteXmlFile>
+                            <suiteXmlFile>${test}</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
