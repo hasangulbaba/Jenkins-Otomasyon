@@ -1,7 +1,7 @@
 <suite name="suite">
     <test name="test suite">
         <classes>
-            <class name="test.JenkinsTest" />
+            <class name="test.Demo" />
         </classes>
     </test>
 </suite>
