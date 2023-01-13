@@ -10,7 +10,7 @@ public class JenkinsTest {
     int number =0;
     @Test
     public void givenNumber_whenEven_thenTrue() {
-        number=4;
+        number=5;
         assertTrue(number % 2 == 0);
 
     }
