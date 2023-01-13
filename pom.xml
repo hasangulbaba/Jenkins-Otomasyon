@@ -47,7 +47,13 @@
                     <configuration>
                         <suiteXmlFiles>
                             <suiteXmlFile>
-                                ${test}
+                                <suite>
+                                    <test>
+                                        <classes>
+                                            <class>${test}</class>
+                                        </classes>
+                                    </test>
+                                </suite>
                             </suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
