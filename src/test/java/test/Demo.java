@@ -24,14 +24,13 @@ public class Demo {
         driver.get("https://www.google.com.tr");
         driver.findElement(By.name("q")).sendKeys("apple");
         Thread.sleep(3000);
-
         driver.quit();
+
 
         driver2.manage().window().maximize();
         driver2.get("https://www.google.com.tr");
         driver2.findElement(By.name("q")).sendKeys("apple");
         Thread.sleep(3000);
-
         driver2.quit();
 
     }

@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
 
 public class JenkinsTest {
-
+    
     int number =0;
     @Test
     public void givenNumber_whenEven_thenTrue() {
-        number=5;
+        number=4;
         assertTrue(number % 2 == 0);
 
     }

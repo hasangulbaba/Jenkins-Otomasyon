@@ -1,7 +1,8 @@
 <suite name="suite">
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
     <test name="test suite">
         <classes>
-            <class name="test.Demo"/>
+            <class name="test.TestNgGridDemo"/>
         </classes>
     </test>
 </suite>

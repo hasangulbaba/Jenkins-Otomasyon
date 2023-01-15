@@ -25,11 +25,9 @@ public class TestRunner {
 
     AfterSuite
     */
+
     public static WebDriver remoteDriver ;
 
-    //burası appiumdaki gibi neden olmuyor ??
-    //bu alttaki paralel çalıştırmak için testleri
-    //@Parameters({"Port"})
     public static void beforeeTest() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setBrowserName("chrome");
